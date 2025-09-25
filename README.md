@@ -17,12 +17,12 @@ A simple web application that fetches and displays details of a GitHub user by u
 ## 📁 Project Structure
 
 .
-├── README.md
-├── index.html
-├── login.html
-├── style.css
-├── script.js
-└── auth.js
+- ├── README.md
+- ├── index.html
+- ├── login.html
+- ├── style.css
+- ├── script.js
+- └── auth.js
 
 
 - `index.html`: Main page to search and display GitHub profile  
@@ -46,3 +46,4 @@ A simple web application that fetches and displays details of a GitHub user by u
    ```bash
    git clone https://github.com/Kalyani8-cloud/Github-Profile-Finder.git
    cd Github-Profile-Finder
+
