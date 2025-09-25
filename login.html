@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - GitHub Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Welcome</h1>
+    <p>Please Sign In or Sign Up</p>
+
+    <!-- Sign In -->
+    <div id="signInBox" class="auth-box">
+      <h2>Sign In</h2>
+      <input type="text" id="loginUsername" placeholder="Enter Username">
+      <input type="password" id="loginPassword" placeholder="Enter Password">
+      <button onclick="signIn()">Sign In</button>
+      <p>Don’t have an account? <a href="#" onclick="toggleForms('signup')">Sign Up</a></p>
+    </div>
+
+    <!-- Sign Up -->
+    <div id="signUpBox" class="auth-box hidden">
+      <h2>Sign Up</h2>
+      <input type="text" id="signupUsername" placeholder="Choose Username">
+      <input type="password" id="signupPassword" placeholder="Choose Password">
+      <button onclick="signUp()">Sign Up</button>
+      <p>Already have an account? <a href="#" onclick="toggleForms('signin')">Sign In</a></p>
+    </div>
+
+    <p id="loginError" class="error"></p>
+  </div>
+
+  <script src="auth.js"></script>
+</body>
+</html>
